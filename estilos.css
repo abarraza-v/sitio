@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+header a {
+    color: white;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+.contenedor-seccion {
+    width: 100%;
+    display: flex;
+}
+
+.header-content {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.lista-nav {
+    display: flex;
+    width: 500px;
+}
+
+.lista-nav li a {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: auto;
+    height: 28px;
+    padding: 0px 20px;
+    margin-left: 50px;
+}
+
+.active {
+    background-color: #1abc9c;
+}
+
+.hero-text {
+    padding: 40px;
+}
+
+.hero-text h1 {
+    margin-bottom: 15px;
+}
+
+.trabajo {
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.servicio {
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.servicio h3 {
+    color: #1abc9c;
+    margin-bottom: 20px;
+}
+
+.servicio div p {
+    font-weight: normal;
+    color: grey;
+}
+
+.servicio img {
+    margin-right: 30px;
+    width: 100px;
+}
+
+.equipo {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.equipo-listado {
+    display: flex;
+    padding: 40px;
+}
+
+.persona {
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 25px;
+    background-color: whitesmoke;
+}
+
+.persona img {
+    width: 100%;
+}
+
+.persona h3 {
+    margin: 20px
+}
